@@ -316,6 +316,9 @@
 		98B012BE1B82F68E00053A32 /* Resolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resolver.swift; sourceTree = "<group>"; };
 		98B012C11B82F70A00053A32 /* Resolver.erb */ = {isa = PBXFileReference; lastKnownFileType = text; path = Resolver.erb; sourceTree = "<group>"; };
 		98E550C21DEF066300BE6304 /* UnavailableItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnavailableItems.swift; sourceTree = "<group>"; };
+		B81587CC22038FE00065BA05 /* TerribleCalculator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TerribleCalculator.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B89E9DB422090E8700AAE3F0 /* TestMultipleRegistration.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TestMultipleRegistration.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B8B7FD4A233D6AEC009CFB32 /* TinderForDogs.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TinderForDogs.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CD3B32911DD6121500B208A3 /* InstanceStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstanceStorage.swift; sourceTree = "<group>"; };
 		CD3B32961DD6126E00B208A3 /* ObjectScope.Standard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectScope.Standard.swift; sourceTree = "<group>"; };
 		CD3B329B1DD61F2400B208A3 /* ContainerSpec.CustomScope.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerSpec.CustomScope.swift; sourceTree = "<group>"; };
@@ -423,6 +426,9 @@
 		981ABE771B5FC9DF00294975 = {
 			isa = PBXGroup;
 			children = (
+				B8B7FD4A233D6AEC009CFB32 /* TinderForDogs.playground */,
+				B89E9DB422090E8700AAE3F0 /* TestMultipleRegistration.playground */,
+				B81587CC22038FE00065BA05 /* TerribleCalculator.playground */,
 				9848611A1B6F21EC00C07072 /* Sample-iOS.playground */,
 				981ABE831B5FC9DF00294975 /* Sources */,
 				981ABE8F1B5FC9DF00294975 /* SwinjectTests */,
@@ -835,6 +841,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 981ABE771B5FC9DF00294975;
