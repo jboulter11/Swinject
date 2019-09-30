@@ -99,29 +99,3 @@ class SwipeViewController : UIViewController {
     }
 }
 print("woof")
-
-func testViewDidLoad() {
-    let vc = SwipeViewController()
-    vc.viewDidLoad()
-    // Oh wait, we just sent a real request
-}
-
-func testSwipeLeft() {
-    let vc = SwipeViewController()
-    vc.viewDidLoad()
-    vc.swipeLeft()
-    // Oh wait, we just sent two real requests
-    
-}
-
-func testSwipeRight() {
-    let vc = SwipeViewController()
-    vc.viewDidLoad()
-    vc.swipeRight()
-    // Oh wait, we just sent two real requests
-    
-}
-
-testViewDidLoad()
-testSwipeLeft()
-testSwipeRight()

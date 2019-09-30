@@ -108,7 +108,7 @@ func testDivisionOperationWhenEqualsTapped() {
     let vc = CalculatorViewController(integerCalculator: terribleCalculator)
     vc.existingTotal = 5
     vc.operation = .division
-    vc.argumentValue = 0
+    vc.argumentValue = 2
     
     vc.equalsTapped()
     print(vc.existingTotal)
@@ -119,3 +119,4 @@ func testDivisionOperationWhenEqualsTapped() {
     assert(vc.argumentValue == nil)
 }
 testDivisionOperationWhenEqualsTapped()
+print("finished")
